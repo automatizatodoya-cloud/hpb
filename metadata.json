@@ -1,0 +1,8 @@
+{
+  "name": "Puerto Bandera Hotel S.A.",
+  "description": "Sitio web oficial del Hotel Puerto Bandera en Rosario, Argentina. Ofrece servicios de alojamiento de alta calidad con habitaciones single, doble y triple.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
