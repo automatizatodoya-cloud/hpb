@@ -17,12 +17,12 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <img 
-            src="hpb/public/img/logo.png" 
+            src="/img/logo.png" 
             alt="Puerto Bandera Logo" 
             className="h-10 md:h-12"
-            onError={(e) => {
-              (e.target as HTMLImageElement).src = "https://picsum.photos/100/100?text=PB";
-            }}
+            //onError={(e) => {
+            //  (e.target as HTMLImageElement).src = "https://picsum.photos/100/100?text=PB";
+            //}}
           />
           <div className={`hidden md:block transition-colors ${isScrolled ? 'text-blue-900' : 'text-white'}`}>
             <h1 className="text-xl font-bold leading-none">PUERTO BANDERA</h1>
