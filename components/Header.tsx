@@ -17,7 +17,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <img 
-            src="/hpb/img/logo.png" 
+            src={`${import.meta.env.BASE_URL}img/logo.png`} 
             alt="Puerto Bandera Logo"
             className="h-10 md:h-12"
 />
