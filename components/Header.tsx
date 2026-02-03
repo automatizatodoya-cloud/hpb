@@ -17,7 +17,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <img 
-            src="public/hpb/img/logo.png" 
+            src="hpb/public/img/logo.png" 
             alt="Puerto Bandera Logo" 
             className="h-10 md:h-12"
             onError={(e) => {
