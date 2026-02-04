@@ -20,6 +20,7 @@ const Header: React.FC = () => {
           src="img/logo.png"
           alt="Logo"
           className="h-10 md:h-12"
+          
           />
           <div className={`hidden md:block transition-colors ${isScrolled ? 'text-blue-900' : 'text-white'}`}>
             <h1 className="text-xl font-bold leading-none">PUERTO BANDERA</h1>
